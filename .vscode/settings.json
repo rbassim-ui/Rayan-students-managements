@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^powershell -Command \"Start-Process msiexec\\.exe -ArgumentList '/i', 'https://github\\.com/git-for-windows/git/releases/download/v2\\.43\\.0\\.windows\\.1/Git-2\\.43\\.0-64-bit\\.exe', '/passive', '/norestart' -Wait\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
